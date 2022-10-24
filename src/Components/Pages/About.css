@@ -1,0 +1,125 @@
+.about {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 60vh;
+}
+
+.title h1 {
+  font-weight: 500;
+  margin-top: 20%;
+}
+
+.about_img {
+  margin-top: 20%;
+  width: 80%;
+  height: 100%;
+  background-image: url("../../assets/55.jpg");
+  margin-left: 20%;
+  position: relative;
+  top: 0%;
+  background-repeat: no-repeat;
+  animation: slide 7s infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("../../assets/11.jpg");
+    z-index: 1;
+  }
+
+  25% {
+    background-image: url("../../assets/22.jpg");
+    position: relative;
+    top: 10%;
+    z-index: 1;
+  }
+  50% {
+    background-image: url("../../assets/33.jpg");
+    z-index: 1;
+  }
+  75% {
+    background-image: url("../../assets/44.jpg");
+    z-index: 1;
+  }
+  100% {
+    background-image: url("../../assets/55.jpg");
+    z-index: 1;
+  }
+}
+
+.about_text {
+  animation: move 2s infinite;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.about_text h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.about_text p {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -10px;
+}
+
+.about_text1 {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  text-align: left;
+  height: 8rem;
+  animation-name: move;
+  animation-duration: 1s;
+}
+.about_text2 {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  text-align: left;
+  height: 8rem;
+  animation-name: move;
+  animation-duration: 2s;
+}
+.about_text3 {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  text-align: left;
+  height: 8rem;
+  animation-name: move;
+  animation-duration: 3s;
+}
+.about_text4 {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  text-align: left;
+  height: 8rem;
+  animation-name: move;
+  animation-duration: 4s;
+}
+.about_text5 {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  text-align: left;
+  height: 8rem;
+  animation-name: move;
+  animation-duration: 5s;
+}

@@ -1,0 +1,57 @@
+.containers {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.container-img img {
+  padding-top: 60px;
+  width: 76%;
+  height: auto;
+  animation: zoom-in 2s ease-out forwards;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+    transform-origin: center;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center;
+  }
+}
+
+.container-texts {
+  padding-top: 150px;
+}
+
+.container-texts h1 {
+  animation-name: moveDown;
+  animation-duration: 1s;
+}
+
+.container-texts p {
+  animation-name: moveUp;
+  animation-duration: 1s;
+}
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
