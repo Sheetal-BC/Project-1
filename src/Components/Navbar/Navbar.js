@@ -59,8 +59,8 @@ function Navbar() {
             <About />
           </div>
 
-          <div>
-            <Enquiry className="scroll-page" />
+          <div className="scroll-page2" >
+            <Enquiry />
           </div>
         </div>
       </div>

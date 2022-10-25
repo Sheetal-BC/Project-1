@@ -17,6 +17,11 @@
     transform: translate(0);
   }
 }
+.heading{
+  background-image: url("../../background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .swiper-slide {
   margin-top: 1px;
   width: 80%;

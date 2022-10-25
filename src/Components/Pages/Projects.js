@@ -57,7 +57,8 @@ function Projects() {
           slidesPerView={3}
           style={{ height: "400px", width: "130%", marginLeft: "100px" }}
           navigation={false}
-          autoplay={{ delay: "2000" }}
+          autoplay={{ delay: "1000" }}
+          speed={700}
           pagination={false}
           scrollbar={false}
         >

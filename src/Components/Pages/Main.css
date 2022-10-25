@@ -27,13 +27,11 @@
 }
 
 .container-texts h1 {
-  animation-name: moveDown;
-  animation-duration: 1s;
+  animation :moveDown 5s infinite;
 }
 
 .container-texts p {
-  animation-name: moveUp;
-  animation-duration: 1s;
+  animation :moveUp 5s infinite;
 }
 @keyframes moveDown {
   0% {
